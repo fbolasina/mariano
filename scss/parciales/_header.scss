@@ -1,0 +1,34 @@
+header {
+    background-color: black;
+    background-image: url(../../img/encabezado.jpeg);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 250px;
+    background-size: contain;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header_logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+}
+
+.header_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header_item {
+    display: flex;
+}

@@ -1,0 +1,104 @@
+header {
+  background-color: black;
+  background-image: url(../../img/encabezado.jpeg);
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 250px;
+  background-size: contain; }
+
+.header {
+  display: flex;
+  flex-direction: column; }
+
+.header_logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: white;
+  font-family: 'Comfortaa', cursive; }
+
+.header_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: white;
+  font-family: 'Montserrat', sans-serif; }
+
+.header_item {
+  display: flex; }
+
+body {
+  background: black;
+  background: linear-gradient(0deg, black 9%, #0f0a26 30%, black 51%, #0a0525 72%, black 100%);
+  color: white; }
+
+main h3 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Comfortaa', cursive; }
+
+main p {
+  font-family: 'Montserrat', sans-serif; }
+
+.foto {
+  transition: scale 1.5s;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 1.5rem; }
+
+.foto:hover {
+  scale: 1.7; }
+
+.card-title, .card-text {
+  color: black;
+  font-family: 'Montserrat', sans-serif; }
+
+.btn {
+  transition: 0.5s; }
+
+.btn:hover {
+  background-color: green; }
+
+.redes {
+  display: inline-block;
+  justify-content: center;
+  font-family: 'Comfortaa', cursive; }
+
+.footerp {
+  justify-content: flex-end; }
+
+/*
+font-family: 'Cinzel', serif;
+font-family: 'Comfortaa', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none; }
+
+a:link {
+  color: white; }
+
+a:visited {
+  color: white; }
+
+a:hover {
+  color: #b6b3b3; }
+
+a:active {
+  color: #5f5f5f; }
+
+a {
+  text-decoration: none; }
+
+::selection {
+  background-color: #030364; }
+
+h1 {
+  font-size: 70px; }
+
+h3 {
+  font-size: 45px; }

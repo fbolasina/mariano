@@ -1,0 +1,33 @@
+/*
+font-family: 'Cinzel', serif;
+font-family: 'Comfortaa', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+a:link{color: white;}
+a:visited{color: white;}
+a:hover{color: rgb(182, 179, 179);}
+a:active{color: rgb(95, 95, 95);}
+
+a {
+    text-decoration: none;
+}
+
+::selection {
+    background-color: rgb(3, 3, 100);
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h3 {
+    font-size: 45px;
+}
